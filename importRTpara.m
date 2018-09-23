@@ -58,4 +58,4 @@ VarName2 = dataArray{:, 2};
 
 %% Write the Rotation and Trans Martix
 T = VarName2(1:3);
-R = VarName2(4:6);
+R = VarName2(4:end);

@@ -27,7 +27,7 @@ for i = 1:3
     I_r = interp2(I_d,u_d,v_d);
     deform_Im(:,:,i) = I_r;
 end
-figure
-imagesc(im);
-figure
-imagesc(deform_Im);
+% figure
+% imagesc(im);
+% figure
+% imagesc(deform_Im);
